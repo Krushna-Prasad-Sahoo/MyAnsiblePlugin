@@ -1,0 +1,21 @@
+- hosts: localhost
+  vars_prompt:
+   - name: pass
+     prompt: "Please enter the password "
+     private: yes
+
+   - name: url
+     prompt: "Please enter the url of News Article You want to read "
+     private: no
+
+   - name: job
+     prompt: "Please enter the job role you are interested in "
+     private: no
+
+  tasks:
+     - debug:
+        msg: "{{ pass | KPS_filter }}"
+     - debug:
+        msg: "{{ job | job_filter }}"
+     - debug:
+        msg: "{{ url | news_filter }}"
