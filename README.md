@@ -1,4 +1,9 @@
+`This repo contains customized plugin for Ansible.`
 
-### This repo contains my customized plugin for Ansible.
+## Ansible Custom Plugin for Live Jobs & News Update by Web Scraping
 
+Technologies Used : 
+- Red Hat Enterprise Linux V8 
+- Red Hat Ansible Engine 2.9  
+- Python 3.7 
 
