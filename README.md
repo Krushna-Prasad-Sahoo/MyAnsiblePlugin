@@ -6,4 +6,13 @@ Technologies Used :
 - Red Hat Enterprise Linux V8 
 - Red Hat Ansible Engine 2.9  
 - Python 3.7 
+- Some default Python Modules :
+    - os 
+    - time 
+    - datetime 
+- Some External Python Modules :
+    - bs4 
+    - nltk
+    - requests
+    - newspaper
 
