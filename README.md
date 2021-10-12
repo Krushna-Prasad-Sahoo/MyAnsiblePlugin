@@ -16,3 +16,5 @@ Technologies Used :
     - requests
     - newspaper
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Krushna-Prasad-Sahoo/MyAnsiblePlugin)
+
